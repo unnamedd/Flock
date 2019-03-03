@@ -1,4 +1,4 @@
-# flock
+# Flock
 
 Flock is a simple tool to create visual object graphs of Swift source code.
 
@@ -23,3 +23,8 @@ $ brew install flock
 $ flock [folder of swift files] > object_graph.dot
 $ dot -Tpdf object_graph.dot -o object_graph.pdf
 ```
+
+
+## Credits
+The original source code was created by [Naoto Kaneko](https://github.com/naoty)  
+Modified by [Thiago Holanda](https://github.com/unnamedd)
